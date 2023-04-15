@@ -1,1 +1,5 @@
-sh "echo 'Ejecución de pipeline desde jenkins'"
+stage('Imprimir mensaje') {
+  steps {
+    sh 'echo "Ejecución de pipeline desde Jenkins"'
+  }
+}
